@@ -1,0 +1,79 @@
+String; classının objeleri primitive(ilkel) değil reference dir .baş harfi büyük olğ için .
+
+length();
+* Stringdeki toplam karakter sayısını yani stringin UZUNLUĞUNU verir. Sonuc İNTEGER dir.
+
+concat()
+*  İki stringi birleştirmeyi sağlayan metodtur. Println metodlarında yaptığımız “+” operatorünün yerine kullanılabilir.
+ Sonuc STRİNG dir.
+ 
+indexOf()
+* char karakter ya da String metnin kacinci indexden basladigini veren bir method dur.
+Stringin içerisindeki karakter veya karakterlerin başlangıç sırasını verir.
+Aynı karakterden birden fazla var ise ilkini verir.
+Sonuc İNTEGER dir.
+
+lastIndexOf()
+* char karakter ya da String metnin sondan kacinci indexden basladigini veren bir method dur.
+Stringin içerisindeki karakter veya karakterlerin en sondaki başlangıç sırasını verir.
+Aranan SON KARAKTERİN indexini verir. Sonuc İNTEGER dir.
+
+charAt()
+* Metin icerisinde, istenilen indexteki karaktere ulasimi saglar.Verilen sıradaki karakteri dönderir.
+String içindeki karaterlerin indexi ‘0’ dan başlanarak belirlenir. Sonuc CHAR dir.
+
+substring()
+ * Metin icinde, istenilen araliktaki bir parcasina ya da butunune ulasilabilir.String içinden istenen parçayı verir.
+Sonuc ise STRİNG dir.Ör: text=“merhaba” olsun   text.substring(1,4);  kodu “erh” çıktısını verir.
+(1,4) 1.2.3. idexdeki karakterleri verir 4 dahil değildir.
+
+text.substring(2);kodu  “haba” çıktısını verir yani 2. idexten sonraki tüm karaterleri verir.
+
+trim()
+* Metnin basinda ve sonunda bulunan boşlukları siler. Aralardaki bosluklara dokunmaz.
+String başı ve sonundaki boşlukları temizler.Sonuc STRİNG dir.
+ 
+ 
+replace()
+* Metin icerisindeki karakter ya da bir parcasinin, istenilen karakter ya da metinle degistirilmesini saglar.
+ istenen karakter veya karakterleri,  verilen yenisi ile değiştirir.
+ REPLACE ile metin içindeki boşluklar silinebilir. Sonuc STRİNG dir.
+ 
+ replaceFirst()
+* istenen karakter veya karakterlerin ilkini,  verilen yenisi ile değiştirir. Sonuc STRİNG dir.
+
+replaceAll()
+* istenen karakter veya karakterleri,  verilen kritere göre, verilen yenisi ile değiştirir. Sonuc STRİNG dir.
+
+contains()
+* Metin icerisinde arama yapmamizi saglar. Stringin içinde  aranan stringin olup olmadığını iletir.
+ Sonuc BOOLEAN dir.
+ 
+isEmpty()
+* Stringin içinin boş olup olmadığını verir. Sonuc BOOLEAN dir.
+
+equals()
+* 2 String metnin birbirine esit olup olmadigina bakar. Sonuc BOOLEAN dir.
+
+equalsIgnorecase()
+* equals() ile ayni islevi gorur, tek farki buyuk kucuk harfe duyarliligi yoktur.
+2 string birbirine eşit olmadığını büyük küçük harfe bakmadan kontrol eder.
+Sonuc BOOLEAN dir.
+
+toLowerCase()
+* String içindeki metnin tümünü KÜÇÜK HARFE çevirir.Sonuc STRİNG dir.
+toUpperCase()
+* String içindeki metnin tümünü BÜYÜK HARFE çevirir.Sonuc STRİNG dir.
+
+startsWith()
+*  Metnin bas kisminin istenilen dizi ile eslesip eslesmedigini kontrol eder.
+ Stringin belirtilen string ile başlayıp başlamadığını verir,
+Sonucu BOOLEAN dir.
+
+endsWith()
+* Metnin son kisminin istenilen dizi ile eslesip eslesmedigini kontrol eder.
+Stringin belirtilen string ile sona erip ermediğini verir
+Sonucu BOOLEAN dir.
+
+split()
+* Bir dizeyi bir alt dizeler dizisine böler. Sonuc STRİNG dir

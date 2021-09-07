@@ -1,0 +1,38 @@
+	abstract==> (Soyutlastirmak) ==> child tarafindan alinmasi zorunlu
+	concrete==>(somut) abstract olmayan  
+	
+	abstract parent'in child'ini ya abstract edersin ya da parent'teki 
+	abstract methodlari implement edersin yoksa CTE verir
+	
+		ABSTRACT classes
+		
+1- Parent class'daki body'siz methodlara abstract methodlar deriz.
+   bazi child parent iliskilerindeki classlarda child class parent class'in
+   bazi methodlarini kullanmak zorunda ise o methodlar abstract hale getirilir.
+   
+   *** ABSTRACT CLASS'LARDA OBJE ASLA CREATE EDILEMEZ...***	
+   
+ --> abstract class'lar constructor'a sahiptir ama instantinate(obje olusturma) yapilamaz
+   
+2- Bir methodu abstract yapmak icin-->{body} silinir ve return type'dan once
+   "abstract" keyword kullanilir.
+   
+3- Abstract bir method ancak abstract bir class'da create edilir.
+   Concrete class'da asla abstract method create edilemez.
+   
+4- Abstract bir class'da hem abstract hem de concrete method olabilir.   
+   
+5- Concrete class abstract class'a extend edildiginde abstract class'taki 
+   tum abstract methodlari implement(uyarlama) etmek zo-run-da-dir..!! 
+   Ama concrete methodlari implement etmeyebilir.
+   
+6- Bir abstract Class baska bir abstract class'a extend edildiginde her hangi bir
+   methodu override etmek zorunda degil. Cunku javaya gore abstract child 
+   class'inda altinda mutlaka concrete bir child class gelecektir.
+      
+7- Final private ve static methodlar abstract o-la-maaz!!!  
+
+8- Abstract class'ta concrete variable olabilir.
+   Ama bu variable asla-kesinlikle abstract olamaz
+   
+   

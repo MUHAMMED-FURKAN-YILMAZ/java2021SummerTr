@@ -1,0 +1,33 @@
+	
+		EXCEPTIONS --> [istisna]==>(Java'da BEKLENMEYEN DURUM demektir)
+		
+1)	2 tur exception vardir.	
+		
+	i) Compile Time (checked) Exceptions : kod create edilirken javanin ongordugu olasi sorunlara 
+	karsi hatanin altinin cizilmesidir. Ama her alti kirmizi cizilen kod exception degildir.
+	==>	(FileNotFoundException) , (IOException) vs.
+	
+	ii) Run Time (unchecked) Exceptions	: Kod run edildiginde olusan exceptions'dir.
+	==>	(ArithmeticException) , (NullPointerException) , (ArrayIndexOutOfBoundsException) , (NumberFormatException) ,
+		(ClassCastException) , (IllegalArgumentException-->Burada biz hata olusturuyoruz) vs.
+	
+
+2) Code create edilirken Exception kullanilmasi gerekirse :
+
+		a--> Add throws declarations : hata olustugunda consol'a hata ile ilgili mesaj verir
+		b--> try-catch block : Hata olustugunda hatanin yazdirilmasi ve handle edilmesini saglar.
+		
+3) try block'dan sonra en az bir tane catch block olmali aksi durumda CTE verir. !!!
+
+4) try-catch block'ta try body hatasiz calisirsa catch body calistirilamaz. 
+	catch body, try body'deki exceptions'da calisir.
+	
+5) try body'den sonra 1'den fazla catch body create edilebilir.	Olusan exceptions hangi catch 
+	ile ilgiliyse o catch body calisir. Ayni anda sadece tek catch body calisir 
+	
+	Tek try ama birden cok catch body olan durumlarda catch body'ler arasinda yukaridan asagiya
+	dogru child-parent iliskisi olmali yoksa CTE (erisilemez catch blogu hatasi)  verir.
+	
+	Catch bodyler arasinda parent-child iliskisi yoksa siralama onemli degil yukaridan asagiya catchler calisir.
+	
+	
