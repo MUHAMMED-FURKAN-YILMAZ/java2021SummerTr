@@ -8,7 +8,7 @@ public class MapMethods {
         hm1.put(101, "Ali Han");// eleman eklemek için kullanılır.
         hm1.put(102, "veli Can");
         hm1.put(103, "Ayşe Tan");
-        hm1.put(101, "Kemal Yıldız"); // ayni key kullanildiginda eski kaydin uzerine yazar.
+        hm1.put(101, "Kemal Yildiz"); // ayni key kullanildiginda eski kaydin uzerine yazar.
         System.out.println(hm1);
 
         hm1.put(104,"Veli Can");// tekrarli key'e izin vermez ancak tekrarli value'ya izin verir
@@ -55,7 +55,8 @@ public class MapMethods {
         System.out.println("hm1 "+hm1);
         System.out.println("hm2 "+hm2);
 
-
+        hm2.remove(200);
+        System.out.println(hm2);
 
 
     }

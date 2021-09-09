@@ -2,15 +2,15 @@ package replit;
 
 
 public class Cons02 {
-	/*Mainde bir öðrencinin deðiþkenlerini oluþturun ve bu deðiþkenleri atamayý kullanýn
-	 Changename, parametre olarak öðrenci adýnda bir yöntem oluþturun
-	 bilgileri alýn ve yöntemdeki tüm bilgileri deðiþtirin ve yeni bilgileri ekleyin
-	 yazdýr
-	 Main yönteminde Rename yöntemini çaðýrdýðýmýz satýr hemen ardýndan öðrenci bilgilerini yeniden yazdýrýr.
-	 changesurname adýnda bir yöntem oluþturun, 
-	 bu yöntem parametre deðiþkeni alýrken "lastname" dir. Yöntemde, kullanýcýdan yeni bir 
-	 soyadý girmesini isteyin ve
-	 eski soyadýný deðiþtir (yani can).*/
+	/*Mainde bir ogrencinin degiskenlerini oluï¿½turun ve bu deï¿½iï¿½kenleri atamayï¿½ kullanï¿½n
+	 Changename, parametre olarak ogrenci adï¿½nda bir yï¿½ntem oluï¿½turun
+	 bilgileri alï¿½n ve yï¿½ntemdeki tï¿½m bilgileri deï¿½iï¿½tirin ve yeni bilgileri ekleyin
+	 yazdï¿½r
+	 Main yï¿½nteminde Rename yï¿½ntemini ï¿½aï¿½ï¿½rdï¿½ï¿½ï¿½mï¿½z satï¿½r hemen ardï¿½ndan ï¿½ï¿½renci bilgilerini yeniden yazdï¿½rï¿½r.
+	 changesurname adï¿½nda bir yï¿½ntem oluï¿½turun, 
+	 bu yï¿½ntem parametre deï¿½iï¿½keni alï¿½rken "lastname" dir. Yï¿½ntemde, kullanï¿½cï¿½dan yeni bir 
+	 soyadï¿½ girmesini isteyin ve
+	 eski soyadï¿½nï¿½ deï¿½iï¿½tir (yani can).*/
 	
 	String isim;
     int yas;
@@ -24,8 +24,8 @@ public class Cons02 {
         
     }
     public static void main(String[] args) {
-        /*Biri parametreli, diðeri parametresiz 2 constructor oluþturun.
-        Bu cons.lari kullanarak en az 2 nesne oluþturun ve özelliklerini konsolda yazdýrýn.*/
+        /*Biri parametreli, diï¿½eri parametresiz 2 constructor oluï¿½turun.
+        Bu cons.lari kullanarak en az 2 nesne oluï¿½turun ve ï¿½zelliklerini konsolda yazdï¿½rï¿½n.*/
     Cons03 obj1= new Cons03("Fatma",15);
     Cons03 obj2= new Cons03("Ayse",20);
     

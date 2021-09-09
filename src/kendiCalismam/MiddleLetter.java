@@ -2,7 +2,7 @@ package kendiCalismam;
 
 import java.util.Scanner;
 
-public class yarim {
+public class MiddleLetter {
 
 	public static void main(String[] args) {
 		//Question 3
@@ -17,9 +17,7 @@ public class yarim {
 		if (str.length()%2==0) {
 			System.out.println("entered words has no middle letter");
 		}else {
-			for (int i = 0; i < str.length(); i++) {
-				
-			}
+			System.out.println(str.charAt((int)str.length()/2));
 		}
 		
 		

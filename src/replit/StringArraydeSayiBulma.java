@@ -1,6 +1,6 @@
 package replit;
 
-public class bos {
+public class StringArraydeSayiBulma {
 	public static int search_digit(String s) {
     
         
@@ -26,9 +26,7 @@ public class bos {
             index = search_digit(x);
             if (index != 0) {
                 System.out.println(
-                    "Digit found at : "
-                    + (index)
-                    + "th position.");
+                    "Digit found at : " + (index) + "th position.");
             }
             else {
                 System.out.println(

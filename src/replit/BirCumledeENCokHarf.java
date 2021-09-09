@@ -1,6 +1,6 @@
 package replit;
 
-public class boss {
+public class BirCumledeENCokHarf {
 
 	public static void main(String[] args) {
 		encokharfbul("Java also easy");
