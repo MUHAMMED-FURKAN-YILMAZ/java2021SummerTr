@@ -1,4 +1,4 @@
-package farkliProjeler;
+package project_TasKagitMakas;
 
 import java.util.Scanner;
 
